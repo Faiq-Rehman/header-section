@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.main{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(travles.jpg);
+    height: 100vh;
+}
+
+.nav_logo{
+    width: 115px;
+}
+
+.nav_logo:hover{
+    cursor: pointer;
+}
+
+.nav_bar{
+    display: flex;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    /* box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.5); */
+    padding: 0 60px;
+    position: fixed;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+a:hover{
+    color: orangered;
+}
+
+.hd_work{
+    /* background-image: url(travles.jpg); */
+    width: 100%;
+    height: 90vh;
+    color: black;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    top: 65px;
+}
+
+.hd_btn{
+    padding: 8px 25px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 40px;
+    
+}
+
+.hd_btn:hover{
+    font-weight: bolder;
+    background-color: lightgreen;
+}
+
+.hd_btn , .hd_h3 , .hd_h1 , .hd_p{
+    margin-top: 13px;
+}
+
+.hd_p{
+    margin-right: 40px;
+    margin-left: 40px;
+}
+
+.hd_h1{
+    font-size: 85px;
+}
